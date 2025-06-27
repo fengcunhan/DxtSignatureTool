@@ -1,0 +1,15 @@
+{
+    "name": "dxt-signature-tool",
+    "version": "1.0.0",
+    "description": "DXT extension signing and verification tool",
+    "main": "dxt_signature_tool.js",
+    "scripts": {
+        "verify": "node dxt_signature_tool.js verify",
+        "sign": "node dxt_signature_tool.js sign"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "adm-zip": "^0.5.16"
+    }
+}
